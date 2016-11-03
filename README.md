@@ -1,7 +1,7 @@
 ## Jupyter Notebook
 
 Para rodar o container, execute
-`docker docker run -p 8888:8888 -v /my/notebook/dir:/home/jovyan/work -d -P jupyter/[docker-stack]`
+`docker run -p 8888:8888 -v /my/notebook/dir:/home/jovyan/work -d -P jupyter/[docker-stack]`
 
 Onde:
 - **/my/notebook/dir**: diretório local onde será salvo os *notebooks*
